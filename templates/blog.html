@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="{{url_for('static', filename='img/favicon.png')}}" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="{{url_for('static', filename='css/swiper-bundle.min.css')}}">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
+
+    <title> Sahil Govekar </title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Sahil Govekar | BLOG</a>
+
+            <!-- Theame change button -->
+            <i class='bx bxs-moon change-theme' id="theme-button"></i>
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Welcome to the</span>
+                    <h1 class="home__name">Blog</h1>
+                    <h3 class="home__education">where intrest meets intresting</h3>
+
+                    <div class="home__buttons">
+                        <a download="" href="" class="button button--ghost">
+                            Buy me cofee
+                        </a>
+                        <a href="/" class="button">Home</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    
+    <!-- blog list -->
+    <section class="about section" id="about">
+
+        <div class="about__container container grid">
+            <img src="{{url_for('static', filename='img/IMG-20220920-WA0000_1663685910784.jpg')}}" alt="" class="about__img">
+
+            <div class="about__data">
+                <h2>Post Title</h2>
+                <br>
+                <div class="about__info">
+                    <div class="about__box">
+                        <i class='bx bx-category about__icon'></i>
+                        <h3 class="about__title">Category</h3>
+                        <span class="about__subtitle">Catogery of post</span>
+                    </div>
+                </div>
+
+                <p class="about__description">
+                    I was in relationship with i5 4th generation having 8GB RAM and 500GB HDD but broke up with it
+                    to develop relationship with better half Ryzen 7 4800H with 16GB RAM and 512GB SSD because she
+                    had RTX 3050..!!
+                    <br><br>
+                    An Engineer, who can adjust to any mode of opertation
+                </p>
+
+                <a href="#contact" class="button">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">@sahilsgovekar</h1>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#about" class="footer__link">about</a>
+                </li>
+
+                <li>
+                    <a href="#blog" class="footer__link">Blog</a>
+                </li>
+
+                <li>
+                    <a href="#podcast" class="footer__link">podcast</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+
+                <a href="" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-github'></i>
+                </a>
+
+                <a href="" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </ul>
+            <span class="footer__copy">
+                &#169; 2023: all right reseverd
+            </span>
+        </div>
+
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="{{url_for('static', filename='js/scrollreveal.min.js')}}"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="{{url_for('static', filename='js/swiper-bundle.min.js')}}"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="{{url_for('static', filename='js/mixitup.min.js')}}"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="{{url_for('static', filename='js/main.js')}}"></script>
+</body>
+
+</html>
